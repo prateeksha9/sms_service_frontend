@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header {
+  width: 100%;
+  background-color: #667292;
+  height: 80px;
+}
+
+.footer {
+  position: fixed;
+  height: 80px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #667292;
+  text-align: center;
+}
+.homeDiv {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.contactList {
+  flex-grow: 0.3;
+  margin-right: 5%;
+}
+.contactListTable {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0.5px solid #8d9db6;
+  border-radius: 100%;
+}
+
+.contactListRow {
+  width: 200%;
+  height: 2rem;
+  padding-top: 10%;
+  margin-top: 1%;
+  margin-left: 10%;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  margin-top: 10%;
+}
+
+.otpList {
+  width: 50%;
+}
+
+.otpListTable {
+  width: 100%;
+  border-collapse: collapse;
+  border: 0.5px solid #8d9db6;
+  border-radius: 100%;
+}
+
+.contactDetails {
+  width: 70%;
+  margin-left: 15%;
+  border: 2px solid black;
+  border-radius: 1rem;
+  padding: 1% 1%;
+  margin-top: 8%;
+}
+
+button {
+  background-color: #667292;
+  border: 0px;
+  padding: 0.8%;
+  font-weight: bold;
+  border-radius: 3px;
+  color: aliceblue;
+}
+
+button:hover {
+  background-color: #4f586e;
+}
+
+.rowDiv:hover {
+  background-color: #f1f3fa;
+  /* background-color:  ; */
+}
+
+@media (max-width: 600px) {
+  .homeDiv {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .otpList {
+    width: 95%;
+    margin-top: 10%;
+  }
+}
